@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Deadline Dost - Production-ready Student Productivity Platform" />
+  <meta name="theme-color" content="#e6f3ed" />
+  <title>Deadline Dost</title>
+  <script>
+    /* Apply the saved theme (Mint Light / Forest Dark) before first paint */
+    (function () {
+      var t = 'light';
+      try {
+        var m = JSON.parse(localStorage.getItem('dd_theme'));
+        t = m && (m.m === 'dark' || m.m === 'light') ? m.m
+          : (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch (e) {}
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" />
+  <script type="module" crossorigin src="./assets/index-7olm43xY.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/vendor-faVlfTgP.js">
+  <link rel="modulepreload" crossorigin href="./assets/supabase-Dx0atVpp.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-CVUSySxI.css">
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

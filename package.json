@@ -1,0 +1,26 @@
+{
+  "name": "deadline-dost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deadline Dost - Complete Full-Stack Student Productivity Platform",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start:server": "npm start --prefix server",
+    "build:client": "npm run build --prefix client",
+    "test:server": "npm test --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "keywords": [
+    "student-productivity",
+    "study-planner",
+    "pomodoro",
+    "fullstack",
+    "supabase",
+    "express",
+    "react"
+  ],
+  "author": "Deadline Dost Team",
+  "license": "MIT"
+}
